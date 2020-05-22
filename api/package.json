@@ -1,0 +1,24 @@
+{
+  "name": "Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dolphins2/Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dolphins2/Application/issues"
+  },
+  "homepage": "https://github.com/Dolphins2/Application#readme",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
