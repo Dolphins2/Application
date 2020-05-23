@@ -1,17 +1,64 @@
 {
-    "cadastro":[
-        {
-        "nome":"Bruno Barreto",
-        "email":"Bruno-kk@homail.com",
-        "senha":12345,
-        "nascimento":"24/01/1994",
-        "cidade":"Belém",
-        "Estado":"Paraiba",
-        "foto":"ref",
-        "instituição":"privada",
-        "declaração":"ref"
+  "cadastro": [
 
+  ],
+  "usuario":[
+    {
+      "id": 1,
+      "nome": "Bruno Barreto",
+      "email": "Bruno-kk@homail.com",
+      "senha": 12345,
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": 1
+    },
+    {
+      "id": 2,
+      "nome": "Julio",
+      "email": "jn5.guape@gmail.com",
+      "senha": 12345,
+      "nascimento": "15/05/2005",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "ref",
+      "instituição": "IFSULDEMINAS",
+      "declaração": "ref",
+      "perfil": 1
+    },
+    {
+      "id": 3,
+      "nome": "Julio2",
+      "email": "jn5.guape@gmail.com",
+      "senha": 12345,
+      "nascimento": "15/05/2005",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "ref",
+      "instituição": "IFSULDEMINAS",
+      "declaração": "ref",
+      "perfil": 2
+    },
+
+  ],
+
+  "professor": [
+    {
+      "id": 1,
+      "nome": "julio",
+      "disciplinas": [ "matematica", "lp"],
+      "pontuação": 1
     }
-    ]
-}
+  ],
 
+  "disciplinas":[
+    {
+      "id": 1,
+      "nome":"lp",
+      "foto": "ref" 
+    }
+  ]
+}
