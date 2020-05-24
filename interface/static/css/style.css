@@ -72,7 +72,7 @@ header {
     color: #FFFFFF;
     text-shadow: 0px 5.1885px 5.1885px rgba(0, 0, 0, 0.25);
 }
-
+/** responsavel pelas mains dos codigos colocar nessa parte**/
 .conteudo {
     width: 30%;
     margin: 0 auto;
@@ -194,7 +194,7 @@ header {
     background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
     border-radius: 0px 78px;
 }
-
+/**rodape**/
 .volteaotopo {
     position: fixed;
     bottom: 2em;
