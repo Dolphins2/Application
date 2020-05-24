@@ -15,10 +15,6 @@ html {
     height: auto;
 }
 
-.menuflex {
-    margin-bottom: 4px solid;
-    display: flex;
-}
 
 header {
     padding-left: 70px;

@@ -1,8 +1,37 @@
 {
   "cadastro": [
-
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 1
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 2
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 3
+    }
   ],
-  "usuario":[
+  "usuario": [
     {
       "id": 1,
       "nome": "Bruno Barreto",
@@ -42,23 +71,23 @@
       "declaração": "ref",
       "perfil": 2
     }
-
   ],
-
   "professor": [
     {
       "id": 1,
       "nome": "julio",
-      "disciplinas": [ "matematica", "lp"],
+      "disciplinas": [
+        "matematica",
+        "lp"
+      ],
       "pontuação": 1
     }
   ],
-
-  "disciplinas":[
+  "disciplinas": [
     {
       "id": 1,
-      "nome":"lp",
-      "foto": "ref" 
+      "nome": "lp",
+      "foto": "ref"
     }
   ]
 }
