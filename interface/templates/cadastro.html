@@ -51,7 +51,7 @@
 
             <i class="material-icons">menu</i>
             <label class="nomeantes" for="lname" id="Cad">Último nome: *</label><br>
-            <input class="campo" type="text" id="lanme" name="lname"><br><br>
+            <input class="campo" type="text" id="lname" name="lname"><br><br>
 
             <i class="material-icons">email</i>
             <label class="nomeantes" for="email" id="Cad">Endereço de e-mail: *</label><br>
@@ -123,9 +123,12 @@
             let confpassword = $("#confpassword").value;
             let link = "http://localhost:3000/cadastro";   
 
+            console.log(username);
+
             let dados = {
                 usuario: username,
                 nome: firstname,
+                unome: lastname,
                 email: email,
                 senha: password,
                 nascimento: "24/01/1994",
@@ -141,10 +144,6 @@
                 url: link,
                 data:dados,
                 dataType: 'json',
-    
-            })
-            .done(function( response ) {
-                return response
             })
             .done(function( response ) {
                 console.log(response)
