@@ -21,14 +21,14 @@
     <div class="menu">
         <div class="menuflex">
             <header>
-                <img src="../static/img/icon.svg" alt="">
+                <a href="index.html"><img src="../static/img/icon.svg" alt=""></a>
             </header>
 
             <nav class="menu1">
                 <ul>
                     <li><a href="">Cursos</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Quem somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
                     <li><a href="">Loja</a></li>
                     <li><a href="">Blog</a></li>
                 </ul>
@@ -40,6 +40,8 @@
 
     </main>
 
+    <a href="#top" class="volteaotopo"><img src="../static/img/botaotopo.svg" alt=""></a>
+
     <footer>
         <img src="../static/img/icon.svg" alt="">
         <p>Copyright &copy; 2020 by Dolphin’s Education. <br>Desenvolvido por Team Dolphin.</p>
@@ -47,4 +49,32 @@
 </body>
 
 </html>
-<script src="../static/js/animations.js"></script>
+<script src="../static/js/jquery-3.5.1.minjs"></script>
+<script>
+    jQuery(document).ready(function() {
+        // Exibe ou oculta o botão
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > 200) {
+                jQuery('.volteaotopo').fadeIn(200);
+            } else {
+                jQuery('.volteaotopo').fadeOut(200);
+            }
+        });
+
+        // Faz animação para subir
+        jQuery('.volteaotopo').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({
+                scrollTop: 0
+            }, 300);
+        })
+    });
+
+    //alerta de cadastro feito
+
+    $("#cads").click(function() {
+        alert('Cadastro relizado com sucesso!!!');
+    });
+
+    //dropdown
+</script>
