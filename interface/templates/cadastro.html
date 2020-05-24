@@ -3,51 +3,69 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Dolphin Education">
+        <meta name="author" content="Team Dolphin">
+
         <link rel="stylesheet" href="../static/css/style.css">
         <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
         <title>Cadastro || Dolphin</title>
     </head>
 
     <body>
         
         <div class="menu">
-            <nav class="menu1">
-                <ul>
-                    <li><a href="">Cursos</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Quem somos</a></li>
-                    <li><a href="">Loja</a></li>
-                </ul>
-            </nav>
+            <div class="menuflex">
+
+                <header>
+                    <img src="../static/img/FAVPNG_dolphin-bottlenose-dolphin-cetacea-fin-common-dolphins_eWnatNyr.png" width="237" height="168" alt="">
+                    <svg width="192" height="49" viewBox="0 0 192 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.648 39.41C9.40396 39.41 6.50196 38.027 3.94096 35.261C1.37996 32.496 0.0999756 29.064 0.0999756 24.967C0.0999756 20.869 1.34597 17.523 3.83897 14.928C6.33097 12.299 9.25097 10.985 12.597 10.985C15.943 10.985 18.674 12.163 20.791 14.519V0.997009H28.474V39H20.791V35.364C18.64 38.061 15.926 39.41 12.648 39.41ZM7.83397 25.274C7.83397 27.493 8.49896 29.32 9.83096 30.754C11.163 32.154 12.716 32.854 14.492 32.854C16.267 32.854 17.77 32.154 18.999 30.754C20.262 29.32 20.894 27.493 20.894 25.274C20.894 23.02 20.262 21.16 18.999 19.691C17.77 18.189 16.25 17.438 14.44 17.438C12.631 17.438 11.077 18.189 9.77997 19.691C8.48197 21.194 7.83397 23.055 7.83397 25.274ZM41.893 25.223C41.893 27.476 42.525 29.32 43.788 30.754C45.086 32.154 46.725 32.854 48.705 32.854C50.72 32.854 52.359 32.154 53.622 30.754C54.919 29.32 55.568 27.476 55.568 25.223C55.568 22.969 54.919 21.125 53.622 19.691C52.359 18.257 50.72 17.54 48.705 17.54C46.725 17.54 45.086 18.257 43.788 19.691C42.525 21.125 41.893 22.969 41.893 25.223ZM63.302 25.223C63.302 29.218 61.919 32.581 59.153 35.312C56.388 38.044 52.905 39.41 48.705 39.41C44.54 39.41 41.074 38.044 38.308 35.312C35.542 32.581 34.16 29.218 34.16 25.223C34.16 21.228 35.542 17.865 38.308 15.133C41.074 12.367 44.54 10.985 48.705 10.985C52.905 10.985 56.388 12.367 59.153 15.133C61.919 17.865 63.302 21.228 63.302 25.223ZM76.691 39H69.008V0.997009H76.691V39ZM99.994 10.985C103.203 10.985 106.054 12.333 108.547 15.031C111.073 17.694 112.337 21.057 112.337 25.12C112.337 29.184 111.073 32.581 108.547 35.312C106.054 38.044 103.118 39.41 99.738 39.41C96.391 39.41 93.694 38.061 91.645 35.364V48.936H83.963V11.446H91.645V14.519C94.001 12.163 96.784 10.985 99.994 10.985ZM91.543 25.274C91.543 27.493 92.158 29.32 93.387 30.754C94.65 32.154 96.169 32.854 97.945 32.854C99.72 32.854 101.274 32.154 102.606 30.754C103.937 29.32 104.603 27.493 104.603 25.274C104.603 23.055 103.954 21.194 102.657 19.691C101.359 18.189 99.806 17.438 97.996 17.438C96.187 17.438 94.65 18.189 93.387 19.691C92.158 21.16 91.543 23.02 91.543 25.274ZM125.756 24.147V39H118.074V0.997009H125.756V14.519C128.078 12.163 130.673 10.985 133.541 10.985C136.444 10.985 138.885 12.009 140.865 14.058C142.846 16.106 143.836 18.838 143.836 22.252V39H136.153V23.942C136.153 19.708 134.6 17.592 131.493 17.592C129.956 17.592 128.607 18.155 127.446 19.282C126.32 20.374 125.756 21.996 125.756 24.147ZM158.467 39H150.784V11.446H158.467V39ZM151.399 7.96301C150.545 7.07501 150.119 6.00001 150.119 4.73601C150.119 3.47301 150.545 2.414 151.399 1.561C152.287 0.673005 153.362 0.229004 154.626 0.229004C155.889 0.229004 156.947 0.673005 157.801 1.561C158.689 2.414 159.133 3.47301 159.133 4.73601C159.133 6.00001 158.689 7.07501 157.801 7.96301C156.947 8.816 155.889 9.243 154.626 9.243C153.362 9.243 152.287 8.816 151.399 7.96301ZM173.422 23.635V39H165.739V11.446H173.422V14.519C175.743 12.163 178.356 10.985 181.258 10.985C184.16 10.985 186.584 12.009 188.531 14.058C190.511 16.106 191.501 18.838 191.501 22.252V39H183.819V23.43C183.819 19.196 182.265 17.079 179.158 17.079C177.621 17.079 176.273 17.643 175.112 18.769C173.985 19.862 173.422 21.484 173.422 23.635Z" fill="white"/>
+                    </svg>      
+                </header>
+                <nav class="menu1">
+                    <ul>
+                        <li><a href="">Cursos</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Quem somos</a></li>
+                        <li><a href="">Loja</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h1 id="textcad">Cadastro</h1>
+
         </div>
 
-        <main>
+        <main class="conteudo">
             <form id="" method="POST">
                 <i class="material-icons">person</i>
-                <label for="uname" id="Cad">Usuario: *</label><br>
-                <input type="text" id="cadastro" name="uname"><br><br>
+                <label class="nomeantes" for="uname" id="Cad">Usuario: *</label><br>
+                <input class="campo" type="text" id="cadastro" name="uname"><br><br>
 
                 <i class="material-icons">menu</i>
-                <label for="fname" id="Cad">Primeiro nome: *</label><br>
-                <input type="text" id="cadastro" name="fname"><br><br>
+                <label class="nomeantes" for="fname" id="Cad">Primeiro nome: *</label><br>
+                <input class="campo" type="text" id="cadastro" name="fname"><br><br>
 
                 <i class="material-icons">menu</i>
-                <label for="lname" id="Cad">Ultimo nome: *</label><br>
-                <input type="text" id="cadastro" name="lname"><br><br>
+                <label class="nomeantes" for="lname" id="Cad">Ultimo nome: *</label><br>
+                <input class="campo" type="text" id="cadastro" name="lname"><br><br>
 
                 <i class="material-icons">email</i>
-                <label for="email" id="Cad">Endereço de e-mail: *</label><br>
-                <input type="email" id="cadastro" name="email"><br><br>
+                <label class="nomeantes" for="email" id="Cad">Endereço de e-mail: *</label><br>
+                <input class="campo" type="email" id="cadastro" name="email"><br><br>
 
                 <i class="material-icons">lock</i>
-                <label for="senha" id="Cad">Senha: *</label><br>
-                <input type="password" id="cadastro" name="senha"><br><br>
+                <label class="nomeantes" for="senha" id="Cad">Senha: *</label><br>
+                <input class="campo" type="password" id="cadastro" name="senha"><br><br>
 
                 <i class="material-icons">lock</i>
-                <label for="resenha" id="Cad">Confirme a senha: *</label><br>
-                <input type="password" id="cadastro" name="resenha"><br><br>
+                <label class="nomeantes" for="resenha" id="Cad">Confirme a senha: *</label><br>
+                <input class="campo" type="password" id="cadastro" name="resenha"><br><br>
 
                 <i class="material-icons">menu</i>
                 <label id="euquero">Eu quero:</label><br><br>
@@ -56,14 +74,16 @@
                     <button id="che">Aprender</button>
                 </div><br>
 
-                <button id="cads" type="submit">Cadastrar</button><br><br>
-                <a href="" id="Cada">Ja é cadastrado? Login</a><br><br>
-                <label for="lname" id="aviso">Após o cadastro, cheque o seu e-mail e confirme a sua conta para que ela seja aprovada. </label>
+                <button id="cads" type="submit">Cadastrar</button>
+                <button href="" id="Cada">Login</button>
             </form>
         </main>
 
         <footer>
-            <img src="" width="120" height="120">
+            <img src="../static/img/FAVPNG_dolphin-bottlenose-dolphin-cetacea-fin-common-dolphins_eWnatNyr.png" width="237" height="168" alt="">
+            <svg width="192" height="49" viewBox="0 0 192 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.648 39.41C9.40396 39.41 6.50196 38.027 3.94096 35.261C1.37996 32.496 0.0999756 29.064 0.0999756 24.967C0.0999756 20.869 1.34597 17.523 3.83897 14.928C6.33097 12.299 9.25097 10.985 12.597 10.985C15.943 10.985 18.674 12.163 20.791 14.519V0.997009H28.474V39H20.791V35.364C18.64 38.061 15.926 39.41 12.648 39.41ZM7.83397 25.274C7.83397 27.493 8.49896 29.32 9.83096 30.754C11.163 32.154 12.716 32.854 14.492 32.854C16.267 32.854 17.77 32.154 18.999 30.754C20.262 29.32 20.894 27.493 20.894 25.274C20.894 23.02 20.262 21.16 18.999 19.691C17.77 18.189 16.25 17.438 14.44 17.438C12.631 17.438 11.077 18.189 9.77997 19.691C8.48197 21.194 7.83397 23.055 7.83397 25.274ZM41.893 25.223C41.893 27.476 42.525 29.32 43.788 30.754C45.086 32.154 46.725 32.854 48.705 32.854C50.72 32.854 52.359 32.154 53.622 30.754C54.919 29.32 55.568 27.476 55.568 25.223C55.568 22.969 54.919 21.125 53.622 19.691C52.359 18.257 50.72 17.54 48.705 17.54C46.725 17.54 45.086 18.257 43.788 19.691C42.525 21.125 41.893 22.969 41.893 25.223ZM63.302 25.223C63.302 29.218 61.919 32.581 59.153 35.312C56.388 38.044 52.905 39.41 48.705 39.41C44.54 39.41 41.074 38.044 38.308 35.312C35.542 32.581 34.16 29.218 34.16 25.223C34.16 21.228 35.542 17.865 38.308 15.133C41.074 12.367 44.54 10.985 48.705 10.985C52.905 10.985 56.388 12.367 59.153 15.133C61.919 17.865 63.302 21.228 63.302 25.223ZM76.691 39H69.008V0.997009H76.691V39ZM99.994 10.985C103.203 10.985 106.054 12.333 108.547 15.031C111.073 17.694 112.337 21.057 112.337 25.12C112.337 29.184 111.073 32.581 108.547 35.312C106.054 38.044 103.118 39.41 99.738 39.41C96.391 39.41 93.694 38.061 91.645 35.364V48.936H83.963V11.446H91.645V14.519C94.001 12.163 96.784 10.985 99.994 10.985ZM91.543 25.274C91.543 27.493 92.158 29.32 93.387 30.754C94.65 32.154 96.169 32.854 97.945 32.854C99.72 32.854 101.274 32.154 102.606 30.754C103.937 29.32 104.603 27.493 104.603 25.274C104.603 23.055 103.954 21.194 102.657 19.691C101.359 18.189 99.806 17.438 97.996 17.438C96.187 17.438 94.65 18.189 93.387 19.691C92.158 21.16 91.543 23.02 91.543 25.274ZM125.756 24.147V39H118.074V0.997009H125.756V14.519C128.078 12.163 130.673 10.985 133.541 10.985C136.444 10.985 138.885 12.009 140.865 14.058C142.846 16.106 143.836 18.838 143.836 22.252V39H136.153V23.942C136.153 19.708 134.6 17.592 131.493 17.592C129.956 17.592 128.607 18.155 127.446 19.282C126.32 20.374 125.756 21.996 125.756 24.147ZM158.467 39H150.784V11.446H158.467V39ZM151.399 7.96301C150.545 7.07501 150.119 6.00001 150.119 4.73601C150.119 3.47301 150.545 2.414 151.399 1.561C152.287 0.673005 153.362 0.229004 154.626 0.229004C155.889 0.229004 156.947 0.673005 157.801 1.561C158.689 2.414 159.133 3.47301 159.133 4.73601C159.133 6.00001 158.689 7.07501 157.801 7.96301C156.947 8.816 155.889 9.243 154.626 9.243C153.362 9.243 152.287 8.816 151.399 7.96301ZM173.422 23.635V39H165.739V11.446H173.422V14.519C175.743 12.163 178.356 10.985 181.258 10.985C184.16 10.985 186.584 12.009 188.531 14.058C190.511 16.106 191.501 18.838 191.501 22.252V39H183.819V23.43C183.819 19.196 182.265 17.079 179.158 17.079C177.621 17.079 176.273 17.643 175.112 18.769C173.985 19.862 173.422 21.484 173.422 23.635Z" fill="white"/>
+            </svg>                
             <p>Copyright &copy; 2020 by Dolphin’s Education. <br>Desenvolvido por Team Dolphin.</p>
         </footer>
 

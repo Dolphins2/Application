@@ -12,8 +12,21 @@ html{
 }
 
 .menu{
-    display: flex;
+    background: linear-gradient(180deg, #7729DB 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 62.06%), #00FFFF;
+    height: auto;
+}
+
+.menuflex{
     margin-bottom: 4px solid;
+    display: flex;
+}
+
+header{
+    display: flex;
+}
+
+header svg{
+    padding-top: 90px;
 }
 
 .menu1{
@@ -37,10 +50,41 @@ html{
     display: block;
     padding: 10px 10px;
     text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 37px;
+    color: #FFFFFF;
 }
 
 .menu1 ul li :hover{
     text-decoration: underline;
+}
+
+#textcad{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9em;
+    line-height: 278px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 5.1885px 5.1885px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+
+}
+
+.conteudo form {
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 .selecionaperfil{
@@ -52,17 +96,82 @@ html{
     padding-right: 5px;
 }
 
-#cads{
+.nomeantes{
+    padding-left: 15px;
+}
 
+.campo{
+    left: 0.06%;
+    right: 0.06%;
+    top: 0.82%;
+    bottom: 0.82%;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    padding: 7px;
+}
+
+#chek{
+    width: 200px;
+    height: 37px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background: #00FFF0;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#che{
+    width: 200px;
+    height: 37px;
+    background: #4402FF;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+}
+
+#cads{
+    width: 200px;
+    height: 37px;
+    background: linear-gradient(180deg, #7534FF 0%, rgba(255, 255, 255, 0) 100%), #00FFFF;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+}
+
+#euquero{
+    padding-left: 15px;
 }
 
 footer{
-    width: 100%; 
+    width: auto; 
     align-items: left;
+    background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), #00FFFF;
+    height: auto;
+    padding: 25px;
+    padding-left: 40px;
 }      
 footer p{
-    font-size: 1.0em;
-    font-weight: 500;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
 }
 
 @media only screen and (min-width: 720px){
@@ -70,3 +179,6 @@ footer p{
 
 @media only screen and (min-width: 1000px){
 }
+
+/* Cadastro */
+
