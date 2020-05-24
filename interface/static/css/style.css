@@ -22,12 +22,9 @@ html{
 }
 
 header{
-    display: flex;
+    padding-left: 60px;
 }
 
-header svg{
-    padding-top: 90px;
-}
 
 .menu1{
     width: 100%;
@@ -58,8 +55,9 @@ header svg{
     color: #FFFFFF;
 }
 
-.menu1 ul li :hover{
-    text-decoration: underline;
+.menu1 ul li:hover{
+    border-bottom: 4px solid #e0ffff;
+    /*detalhe tava text decoration, so que tem que separar ai isso e um teste*/
 }
 
 #textcad{
@@ -106,7 +104,7 @@ header svg{
     top: 0.82%;
     bottom: 0.82%;
     background: #FFFFFF;
-    border: 2px solid #000000;
+    border: 2px solid rgba(0, 0, 0, 0.25);
     padding: 7px;
 }
 
@@ -153,6 +151,20 @@ header svg{
     color: #000000;
 }
 
+#cada{
+    width: 200px;
+    height: 37px;
+    background: linear-gradient(180deg, #7534FF 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    border-radius: 20px;
+}
+
 #euquero{
     padding-left: 15px;
 }
@@ -163,7 +175,7 @@ footer{
     background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), #00FFFF;
     height: auto;
     padding: 25px;
-    padding-left: 40px;
+    padding-left: 60px;
 }      
 footer p{
     font-family: Montserrat;
@@ -179,6 +191,3 @@ footer p{
 
 @media only screen and (min-width: 1000px){
 }
-
-/* Cadastro */
-
