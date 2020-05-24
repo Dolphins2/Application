@@ -87,7 +87,7 @@
 </body>
 
 </html>
-<script src="../static/js/jquery-3.5.1.js"></script>
+<script src="../static/js/jquery-3.5.1.minjs"></script>
 <script>
     jQuery(document).ready(function() {
         // Exibe ou oculta o botão
@@ -106,5 +106,11 @@
                 scrollTop: 0
             }, 300);
         })
+    });
+
+    //alerta de cadastro feito
+
+    $("#cads").click(function() {
+        alert('Cadastro relizado com sucesso!!!');
     });
 </script>
