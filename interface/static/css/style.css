@@ -178,7 +178,7 @@ header {
 footer {
     width: auto;
     align-items: left;
-    background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), #00FFFF;
+    background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), rgb(80, 41, 252);
     height: auto;
     padding: 25px;
     padding-left: 70px;
