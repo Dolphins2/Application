@@ -170,6 +170,11 @@ header {
     margin-left: 10px;
 }
 
+#cada a{
+    text-decoration: none;
+    color: white;
+}
+
 #euquero {
     padding-left: 15px;
     font-weight: bold;
