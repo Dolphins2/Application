@@ -208,7 +208,6 @@ header {
 footer {/*rodape*/
     width: auto;
     align-items: left;
-    /*background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), rgb(80, 41, 252);*/
     background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), rgb(143, 95, 255);
     height: auto;
     padding: 25px;
@@ -221,7 +220,7 @@ footer p {
     font-weight: bold;
     font-size: 1.1em;
     line-height: 30px;
-    color: #000000;
+    color: white;
 }
 
 @media only screen and (min-width: 720px) {}
