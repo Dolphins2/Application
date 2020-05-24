@@ -16,7 +16,7 @@
     <title>Cadastro || Dolphin</title>
 </head>
 
-<body>
+<body id="top">
 
     <div class="menu">
         <div class="menuflex">
@@ -77,6 +77,8 @@
         </form>
     </main>
 
+    <a href="#top" class="volteaotopo">topo</a>
+
     <footer>
         <img src="../static/img/icon.svg" alt="">
         <p>Copyright &copy; 2020 by Dolphin’s Education. <br>Desenvolvido por Team Dolphin.</p>
@@ -85,4 +87,24 @@
 </body>
 
 </html>
-<script src="../static/js/animations.js"></script>
+<script src="../static/js/jquery-3.5.1.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        // Exibe ou oculta o botão
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > 200) {
+                jQuery('.volteaotopo').fadeIn(200);
+            } else {
+                jQuery('.volteaotopo').fadeOut(200);
+            }
+        });
+
+        // Faz animação para subir
+        jQuery('.volteaotopo').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({
+                scrollTop: 0
+            }, 300);
+        })
+    });
+</script>
