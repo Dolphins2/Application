@@ -1,44 +1,42 @@
 @charset "utf-8";
-
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-html{
+html {
     width: 100%;
     height: 100%;
 }
 
-.menu{
-    background: linear-gradient(180deg, #7729DB 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 62.06%), #00FFFF;
+.menu {
+    background: linear-gradient(180deg, rgb(136, 60, 236) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 62.06%), rgb(42, 170, 255);
     height: auto;
 }
 
-.menuflex{
+.menuflex {
     margin-bottom: 4px solid;
     display: flex;
 }
 
-header{
+header {
     padding-left: 70px;
 }
 
-
-.menu1{
+.menu1 {
     width: 100%;
     height: 60px;
 }
 
-.menu1 ul{
+.menu1 ul {
     list-style: none;
     position: relative;
     float: right;
     padding-right: 50px;
 }
 
-.menu1 ul li{
+.menu1 ul li {
     float: left;
     padding-left: 30px;
     padding-top: 30px;
@@ -46,7 +44,7 @@ header{
     padding-bottom: 2px;
 }
 
-.menu1 ul li a{
+.menu1 ul li a {
     text-decoration: none;
     display: block;
     padding: 10px 10px;
@@ -59,12 +57,12 @@ header{
     color: #FFFFFF;
 }
 
-.menu1 ul li:hover{
+.menu1 ul li:hover {
     border-bottom: 4px solid #e0ffff;
     /*detalhe tava text decoration, so que tem que separar ai isso e um teste*/
 }
 
-#textcad{
+#textcad {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -75,12 +73,11 @@ header{
     text-shadow: 0px 5.1885px 5.1885px rgba(0, 0, 0, 0.25);
 }
 
-.conteudo{
+.conteudo {
     width: 30%;
     margin: 0 auto;
     display: flex;
     height: 100%;
-
 }
 
 .conteudo form {
@@ -89,21 +86,21 @@ header{
     padding-bottom: 100px;
 }
 
-.selecionaperfil{
+.selecionaperfil {
     display: flex;
 }
 
-.selecionaperfil p{
+.selecionaperfil p {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.nomeantes{
+.nomeantes {
     padding-left: 15px;
     font-weight: bold;
 }
 
-.campo{
+.campo {
     left: 0.06%;
     right: 0.06%;
     top: 0.82%;
@@ -115,10 +112,9 @@ header{
     margin-top: 15px;
 }
 
-#chek{
+#chek {
     width: 200px;
     height: 37px;
-    
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -131,7 +127,7 @@ header{
     border-radius: 10px;
 }
 
-#che{
+#che {
     width: 200px;
     height: 37px;
     background: #4402FF;
@@ -145,7 +141,7 @@ header{
     color: #000000;
 }
 
-#cads{
+#cads {
     width: 190px;
     height: 37px;
     border-radius: 10px;
@@ -159,7 +155,7 @@ header{
     margin-right: 10px;
 }
 
-#cada{
+#cada {
     width: 190px;
     height: 37px;
     background: #7D27EB;
@@ -174,20 +170,21 @@ header{
     margin-left: 10px;
 }
 
-#euquero{
+#euquero {
     padding-left: 15px;
     font-weight: bold;
 }
 
-footer{
-    width: auto; 
+footer {
+    width: auto;
     align-items: left;
     background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), #00FFFF;
     height: auto;
     padding: 25px;
     padding-left: 70px;
-}      
-footer p{
+}
+
+footer p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -196,8 +193,6 @@ footer p{
     color: #000000;
 }
 
-@media only screen and (min-width: 720px){
-}
+@media only screen and (min-width: 720px) {}
 
-@media only screen and (min-width: 1000px){
-}
+@media only screen and (min-width: 1000px) {}
