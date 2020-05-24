@@ -9,12 +9,12 @@ html {
     width: 100%;
     height: 100%;
 }
-
+/*base do menu*/
 .menu {
     background: linear-gradient(180deg, rgb(136, 60, 236) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 62.06%), rgb(42, 170, 255);
     height: auto;
 }
-
+/*pra por a nav e header juntos*/
 .menuflex {
     margin-bottom: 4px solid;
     display: flex;
@@ -23,7 +23,7 @@ html {
 header {
     padding-left: 70px;
 }
-
+/*nav*/
 .menu1 {
     width: 100%;
     height: 60px;
@@ -61,7 +61,7 @@ header {
     border-bottom: 4px solid #e0ffff;
     /*detalhe tava text decoration, so que tem que separar ai isso e um teste*/
 }
-
+/*h1 do cabecalho*/
 #textcad {
     font-family: Montserrat;
     font-style: normal;
@@ -73,14 +73,14 @@ header {
     text-shadow: 0px 5.1885px 5.1885px rgba(0, 0, 0, 0.25);
 }
 /** responsavel pelas mains dos codigos colocar nessa parte**/
-.conteudo {
+.conteudo {/*main*/
     width: 30%;
     margin: 0 auto;
     display: flex;
     height: 100%;
 }
 
-.conteudo form {
+.conteudo form {/*formunalrio*/
     padding: 15px;
     padding-top: 40px;
     padding-bottom: 100px;
@@ -90,17 +90,11 @@ header {
     display: flex;
 }
 
-.selecionaperfil p {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.nomeantes {
+.nomeantes {/*labls antes dos ids*/
     padding-left: 15px;
-    font-weight: bold;
 }
 
-.campo {
+.campo {/*input*/
     left: 0.06%;
     right: 0.06%;
     top: 0.82%;
@@ -110,7 +104,7 @@ header {
     padding: 7px;
     width: 60vh;
     margin-top: 15px;
-}
+}/*4 proximo elemnetos e de botoes*/
 
 #chek {
     width: 200px;
@@ -180,7 +174,7 @@ header {
     font-weight: bold;
 }
 
-.conteudologin{
+.conteudologin{/*main da pagina de login*/
     width: 30%;
     margin: 0 auto;
     height: 100%;
@@ -188,14 +182,14 @@ header {
     margin-bottom: 15%;
 }
 
-.quadrado{
+.quadrado{/*quadrado*/
     width: 100%;
     height: 350px;
     background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
     border-radius: 0px 78px;
 }
 /**rodape**/
-.volteaotopo {
+.volteaotopo {/*volte ao topo*/
     position: fixed;
     bottom: 2em;
     right: 2em;
@@ -211,7 +205,7 @@ header {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-footer {
+footer {/*rodape*/
     width: auto;
     align-items: left;
     /*background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), rgb(80, 41, 252);*/
