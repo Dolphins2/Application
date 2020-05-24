@@ -16,73 +16,7 @@
     <title>Cadastro || Dolphin</title>
 
     <script src="../static/js/jquery-3.5.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Exibe ou oculta o botão
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    $('.volteaotopo').fadeIn(200);
-                } else {
-                    $('.volteaotopo').fadeOut(200);
-                }
-            });
-
-            // Faz animação para subir
-            $('.volteaotopo').click(function(event) {
-                event.preventDefault();
-                $('html, body').animate({
-                    scrollTop: 0
-                }, 300);
-            })
-        });
-
-        //consumindo a api
-
-        $(document).ready(function(){
-
-            $("form#cadastro").submit(function( event ) {
-                event.preventDefault();
-
-                let username = $("#user").value;
-                let firstname = $("#fname").value;
-                let lastname = $("#lname").value;
-                let email = $("#email").value;
-                let password = $("#password").value;
-                let confpassword = $("#confpassword").value;
-                let link = "http://localhost:3000/cadastro";   
-
-                //console.log(username);
-
-                let dados = {
-                    usuario: username,
-                    nome: firstname,
-                    unome: lastname,
-                    email: email,
-                    senha: password,
-                    nascimento: "24/01/1994",
-                    cidade: "Belém",
-                    Estado: "Paraiba",
-                    foto: "ref",
-                    instituição: "privada",
-                    declaração: "ref",
-                    perfil: 1,
-                }
-
-                $.post({
-                    url: link,
-                    data:dados,
-                    dataType: 'json',
-                })
-                .done(function( response ) {
-                    console.log(response)
-                })
-                .fail(function(){
-                    alert("erro!!!")
-                });
-            });
-        });
-
-    </script>
+    <script src="../static/js/index.js"></script>
 </head>
 
 <body id="top">
@@ -100,6 +34,7 @@
                     <li><a href="quemsomos.html">Quem somos</a></li>
                     <li><a href="">Loja</a></li>
                     <li><a href="">Blog</a></li>
+                    <li><a href="entrar.html">Login</a></li>
                 </ul>
             </nav>
         </div>
@@ -109,7 +44,7 @@
     </div>
 
     <main class="conteudo">
-        <form id="cadastro" method="POST">
+        <form id="cadastro" method="POST" class="msg">
             <i class="material-icons">person</i>
             <label class="nomeantes" for="uname" id="Cad">Usuário: *</label><br>
             <input class="campo" type="text" id="user" name="uname"><br><br>
