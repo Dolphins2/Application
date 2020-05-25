@@ -1,17 +1,323 @@
 {
-    "cadastro":[
-        {
-        "nome":"Bruno Barreto",
-        "email":"Bruno-kk@homail.com",
-        "senha":12345,
-        "nascimento":"24/01/1994",
-        "cidade":"Belém",
-        "Estado":"Paraiba",
-        "foto":"ref",
-        "instituição":"privada",
-        "declaração":"ref"
-
+  "cadastro": [
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 1
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 2
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 3
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 4
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 5
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 6
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 7
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 8
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 9
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 10
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 11
+    },
+    {
+      "usuario": "dfd",
+      "nome": "dfs",
+      "unome": "vsd",
+      "email": "dfsda@fe",
+      "senha": "123",
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 12
+    },
+    {
+      "usuario": "dfd",
+      "nome": "dfs",
+      "unome": "vsd",
+      "email": "dfsda@fe",
+      "senha": "123",
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 13
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 14
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 15
+    },
+    {
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 16
+    },
+    {
+      "usuario": "dfdds",
+      "nome": "dfsds",
+      "unome": "vsddsa",
+      "email": "dfsda@fecxs",
+      "senha": "1515",
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 17
+    },
+    {
+      "usuario": "JN5",
+      "nome": "Julio",
+      "unome": "Avelar",
+      "email": "jn5.guape@gmail.com",
+      "senha": "123",
+      "cpf": "10588858633",
+      "nascimento": "2005-05-15",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "x1",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 18
+    },
+    {
+      "usuario": "",
+      "nome": "es",
+      "unome": "fds",
+      "email": "",
+      "senha": "",
+      "cpf": "105.888.586-33",
+      "nascimento": "",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "fds",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 19
+    },
+    {
+      "usuario": "",
+      "nome": "",
+      "unome": "",
+      "email": "",
+      "senha": "",
+      "cpf": "",
+      "nascimento": "",
+      "cidade": "",
+      "Estado": "",
+      "foto": "C:\\fakepath\\76757008_1366826570160885_7694002412599640064_n.jpg",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 20
+    },
+    {
+      "usuario": "Julio",
+      "nome": "",
+      "unome": "",
+      "email": "jn5.guape@gmail.com",
+      "senha": "123",
+      "cpf": "",
+      "nascimento": "",
+      "cidade": "",
+      "Estado": "",
+      "foto": "",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 21
+    },
+    {
+      "usuario": "Julio",
+      "nome": "",
+      "unome": "",
+      "email": "jn5.guape@gmail.com",
+      "senha": "123",
+      "cpf": "",
+      "nascimento": "",
+      "cidade": "",
+      "Estado": "",
+      "foto": "",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 22
     }
-    ]
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "Bruno Barreto",
+      "email": "Bruno-kk@homail.com",
+      "senha": 12345,
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": 1
+    },
+    {
+      "id": 2,
+      "nome": "Julio",
+      "email": "jn5.guape@gmail.com",
+      "senha": 12345,
+      "nascimento": "15/05/2005",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "ref",
+      "instituição": "IFSULDEMINAS",
+      "declaração": "ref",
+      "perfil": 1
+    },
+    {
+      "id": 3,
+      "nome": "Julio2",
+      "email": "jn5.guape@gmail.com",
+      "senha": 12345,
+      "nascimento": "15/05/2005",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "ref",
+      "instituição": "IFSULDEMINAS",
+      "declaração": "ref",
+      "perfil": 2
+    }
+  ],
+  "professor": [
+    {
+      "id": 1,
+      "nome": "julio",
+      "disciplinas": [
+        "matematica",
+        "lp"
+      ],
+      "pontuação": 1
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": 1,
+      "nome": "lp",
+      "foto": "ref"
+    }
+  ]
 }
-
