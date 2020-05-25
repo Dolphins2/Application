@@ -122,10 +122,10 @@ header {
 }
 
 
-#Não{
+#vish{
  display: none;
 }
-#Sim{
+#ssla{
     display: none;
 }
 
@@ -156,13 +156,13 @@ header {
 }
 
 
-#Não:checked ~ #sim{
+#ssla:checked ~ #sim{
     background: rgba(96, 9, 209, 0.699);
     transition: 1s;
     color: rgba(0, 0, 0, 0.274);
 
 }
-#Sim:checked ~ #nao{
+#vish:checked ~ #nao{
    background: rgba(96, 9, 209, 0.699);
     transition: 1s;
     color: rgba(0, 0, 0, 0.274);
