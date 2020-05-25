@@ -76,9 +76,8 @@ header {
 }
 /** responsavel pelas mains dos codigos colocar nessa parte**/
 .conteudo {/*main*/
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
-    display: flex;
     height: 100%;
 }
 
@@ -121,37 +120,18 @@ header {
     font-size: 20px;
 }
 
-
-
-
-
-#sdd{
-    width: 200px;
-    height: 37px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.1em;
-    line-height: 30px;
-    color: #000000;
-    background:#7729DB;
-    border: 3px solid rgba(13, 12, 61, 0.4);
-    box-sizing: border-box;
-    cursor: pointer;
-     transition: 1s;
-     border: none;
-     border-bottom-left-radius: 10px;
-     border-top-left-radius: 10px;
-     text-align: center;
-     display: flex;
-     margin-top: 0px;
-     margin-left: -400px;
-     
+/*
+#Não{
+ display: none;
 }
-
-#bed {
-    width: 200px;
-    height: 37px;
+#Sim{
+    /*display: none;
+}
+*/
+#sim{
+    margin-left: 15%;
+    width: 120px;
+    height: 40px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -215,9 +195,25 @@ header {
     color: rgba(0, 0, 0, 0.274);
 }
 
+#ssla:checked ~ #inns{
+    display: inline;
+    float: left;
+   
+}
+#ssla:checked ~ #rad{
+    display: inline;
+    margin-left: -40px;
+}
+
+
 #inns{
-    display: block;
+    display: none;
+    margin-top: 10px;
+   float: left;
     
+}
+#rad{ /**/
+    display: none;
     border-bottom: solid 2px #000 ;
     border-top: none;
     border-left: none;
@@ -225,25 +221,13 @@ header {
     background: rgba(253, 0, 0, 0);
     height: 25px;
     width: 80%;
-    
+    direction: none;
     outline: none;
     font-size: 20px;
-   
-   
+    transition: 1s;
+    float: left;
+    
 }
-#qual {
-    display: none;
-}
-#ssla:checked ~ #qual{
-    display: block;
-    margin-left: -400px;
-   
-}
-#ssla:checked ~ #pp{
-    margin-left: 400px;
-}
-
-
 
 #Crad{
     border-bottom: solid 2px #000 ;
@@ -300,6 +284,14 @@ header {
     text-align: center;
    
      
+}
+
+.some{
+    display: none;
+}
+
+#Sim:checked ~ .some{
+    display: block;
 }
 
 #en {
