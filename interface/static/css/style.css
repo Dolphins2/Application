@@ -122,70 +122,10 @@ header {
 }
 
 
-#vish{
- display: none;
-}
-#ssla{
-    display: none;
-}
-
-#sim{
-      width: 120px;
-    height: 40px;
-    font-family: Montserrat;
-    background: red;
-    border: solid 1px ;
-   float: left;
-    border-radius: 5px;
-    text-align: center;
-  
-
-}
-#nao{
-    width: 120px;
-    height: 40px;
-    font-family: Montserrat;
-    background: red;
-    border: solid 1px ;
-    border-radius: 5px;
-    text-align: center;
-    float:right;
-    margin-right: 80px;
-   
-
-}
-
-
-#ssla:checked ~ #sim{
-    background: rgba(96, 9, 209, 0.699);
-    transition: 1s;
-    color: rgba(0, 0, 0, 0.274);
-
-}
-#vish:checked ~ #nao{
-   background: rgba(96, 9, 209, 0.699);
-    transition: 1s;
-    color: rgba(0, 0, 0, 0.274);
-}
-
-#Crad{
-    border-bottom: solid 2px #000 ;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background: rgba(253, 0, 0, 0);
-    height: 25px;
-    width: 80%;
-    direction: none;
-    outline: none;
-    font-size: 20px;
-}
-/*4 proximo elemnetos e de botoes*/
 
 
 
-
-#chek {
+#sdd{
     width: 200px;
     height: 37px;
     font-family: Montserrat;
@@ -203,10 +143,14 @@ header {
      border-bottom-left-radius: 10px;
      border-top-left-radius: 10px;
      text-align: center;
+     display: flex;
+     margin-top: 0px;
+     margin-left: -400px;
+     
 }
 
-#che {
-       width: 200px;
+#bed {
+    width: 200px;
     height: 37px;
     font-family: Montserrat;
     font-style: normal;
@@ -218,11 +162,147 @@ header {
     border: 3px solid rgba(13, 12, 61, 0.4);
     box-sizing: border-box;
     cursor: pointer;
-     transition: 1s;
-     border: none;
-     border-bottom-right-radius: 10px;
-     border-top-right-radius: 10px;
-     text-align: center;
+    transition: 1s;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    display: flex;
+    margin-top: -37px;
+    margin-left: -200px;
+
+     
+}
+#po{
+    margin-top: 50px;
+    margin-left: -400px;
+
+
+}
+#pp{
+    margin-top: 0px;
+     margin-left: -400px;
+}
+
+
+#vish{
+    display: none;
+}
+#ssla{
+    display: none;
+    
+} 
+
+
+
+
+#sdd:hover{
+    background: rgba(118, 41, 219, 0.911);
+}
+#bed:hover{
+    background: rgba(118, 41, 219, 0.911);
+}
+
+#vish:checked ~ #sdd{
+    background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.274);
+
+}
+#ssla:checked ~ #bed{
+   background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.274);
+}
+
+#ssla:checked ~ #inns{
+    display: inline;
+    float: left;
+   
+}
+#ssla:checked ~ #rad{
+    display: inline;
+    margin-left: -40px;
+}
+
+
+#inns{
+    display: none;
+    margin-top: 10px;
+   float: left;
+    
+}
+#rad{ /**/
+    display: none;
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 80%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+    transition: 1s;
+    float: left;
+    
+}
+
+#Crad{
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 80%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+}
+/*4 proximo elemnetos e de botoes*/
+
+#chek {
+    width: 200px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+      
+}
+
+#che {
+    width: 200px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+   
      
 }
 
@@ -250,6 +330,14 @@ header {
     transition: 1s;
     color: rgba(0, 0, 0, 0.274);
 }
+#ec{
+    display: none;
+}
+#en:checked ~ #ec {
+        display: grid;
+}
+
+
 
 
 #cads {
@@ -333,7 +421,6 @@ header {
 }
 #login:hover{
     color:rgb(56, 20, 155) ;
-
 }
 
 #i{
@@ -353,8 +440,6 @@ header {
     direction: none;
     outline: none;
     font-size: 20px;
-    
-
 }
 
 /*retira underline dos link <a>*/
