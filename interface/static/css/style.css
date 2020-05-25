@@ -92,6 +92,14 @@ header {
 
 .nomeantes {/*labls antes dos ids*/
     padding-left: 15px;
+}/*pra mostrar qual instituição se o botao for precionado*/
+
+#some{
+    display: none;
+}
+
+#cargo:checked ~ #some{
+    display: block;
 }
 
 .campo {/*input*/
@@ -136,7 +144,7 @@ header {
 }
 
 #cads {
-    width: 190px;
+    width: 290px;
     height: 37px;
     border-radius: 10px;
     font-family: Montserrat;
@@ -150,7 +158,7 @@ header {
 }
 
 #cada {
-    width: 190px;
+    width: 290px;
     height: 37px;
     background: #7D27EB;
     position: absolute;
