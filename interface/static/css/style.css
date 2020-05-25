@@ -223,6 +223,14 @@ header {
      
 }
 
+.some{
+    display: none;
+}
+
+#Sim:checked ~ .some{
+    display: block;
+}
+
 #en {
         display: none;
 }
@@ -302,7 +310,6 @@ header {
     background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
     border-radius: 0px 78px;
 }
-<<<<<<< HEAD
 /*login*/
 #logs{
     width: 190px;
@@ -363,8 +370,6 @@ a.nounderline:link{
 text-decoration:none;
 }
 
-=======
->>>>>>> 25d6ac404df832a24831b3f67b1e6bf72e949d1f
 /**rodape**/
 .volteaotopo {/*volte ao topo*/
     position: fixed;
