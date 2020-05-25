@@ -184,6 +184,51 @@
       "declaração": "ref",
       "perfil": "1",
       "id": 17
+    },
+    {
+      "usuario": "JN5",
+      "nome": "Julio",
+      "unome": "Avelar",
+      "email": "jn5.guape@gmail.com",
+      "senha": "123",
+      "cpf": "10588858633",
+      "nascimento": "2005-05-15",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "x1",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 18
+    },
+    {
+      "usuario": "",
+      "nome": "es",
+      "unome": "fds",
+      "email": "",
+      "senha": "",
+      "cpf": "105.888.586-33",
+      "nascimento": "",
+      "cidade": "Guapé",
+      "Estado": "Minas Gerais",
+      "foto": "fds",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 19
+    },
+    {
+      "usuario": "",
+      "nome": "",
+      "unome": "",
+      "email": "",
+      "senha": "",
+      "cpf": "",
+      "nascimento": "",
+      "cidade": "",
+      "Estado": "",
+      "foto": "C:\\fakepath\\76757008_1366826570160885_7694002412599640064_n.jpg",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 20
     }
   ],
   "usuario": [

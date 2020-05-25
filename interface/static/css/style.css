@@ -94,6 +94,14 @@ header {
 
 .nomeantes {/*labls antes dos ids*/
     padding-left: 15px;
+}/*pra mostrar qual instituição se o botao for precionado*/
+
+#some{
+    display: none;
+}
+
+#cargo:checked ~ #some{
+    display: block;
 }
 
 .campo {/*input*/
@@ -242,7 +250,7 @@ header {
 
 
 #cads {
-    width: 190px;
+    width: 290px;
     height: 37px;
     border-radius: 10px;
     font-family: Montserrat;
@@ -256,7 +264,7 @@ header {
 }
 
 #cada {
-    width: 190px;
+    width: 290px;
     height: 37px;
     background: #7D27EB;
     position: absolute;
@@ -290,10 +298,11 @@ header {
 
 .quadrado{/*quadrado*/
     width: 100%;
-    height: 400px;
+    height: 350px;
     background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
     border-radius: 0px 78px;
 }
+<<<<<<< HEAD
 /*login*/
 #logs{
     width: 190px;
@@ -354,6 +363,8 @@ a.nounderline:link{
 text-decoration:none;
 }
 
+=======
+>>>>>>> 25d6ac404df832a24831b3f67b1e6bf72e949d1f
 /**rodape**/
 .volteaotopo {/*volte ao topo*/
     position: fixed;

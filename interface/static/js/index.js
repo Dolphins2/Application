@@ -23,18 +23,26 @@ $(document).ready(function(){
 
     $('form.msg').submit(function( event ) {
         event.preventDefault(); 
+
+        let ins;
+        if($('#myCheckBox').is(':checked')){
+            ins = $("input#instituicao").val();
+        }else{
+            ins = 0;
+        }
+
         let dados = {
             usuario: $("input#user").val(),
             nome: $("input#fname").val(),
             unome: $("input#lname").val(),
             email: $("input#email").val(),
             senha: $("input#password").val(),
-            nascimento: "24/01/1994",
-            cidade: "Belém",
-            Estado: "Paraiba",
-            foto: "ref",
-            instituição: "privada",
-            declaração: "ref",
+            cpf: $("input#cpf").val(),
+            nascimento: $("input#datana").val(),
+            cidade: $("input#cidade").val(),
+            Estado: $("input#estado").val(),
+            foto: $("input#foto").val(),
+            instituição: ins,
             perfil: 1,
         }
 
