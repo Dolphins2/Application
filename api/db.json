@@ -229,6 +229,21 @@
       "instituição": "0",
       "perfil": "1",
       "id": 20
+    },
+    {
+      "usuario": "Julio",
+      "nome": "",
+      "unome": "",
+      "email": "jn5.guape@gmail.com",
+      "senha": "123",
+      "cpf": "",
+      "nascimento": "",
+      "cidade": "",
+      "Estado": "",
+      "foto": "",
+      "instituição": "0",
+      "perfil": "1",
+      "id": 21
     }
   ],
   "usuario": [
