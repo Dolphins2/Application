@@ -8,7 +8,9 @@
 html {
     width: 100%;
     height: 100%;
+  
 }
+
 /*base do menu*/
 .menu {
     background: linear-gradient(180deg, rgb(136, 60, 236) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 62.06%), rgb(42, 170, 255);
@@ -110,9 +112,75 @@ header {
     background: #FFFFFF;
     border: 2px solid rgba(0, 0, 0, 0.25);
     padding: 7px;
-    width: 60vh;
-    margin-top: 15px;
-}/*4 proximo elemnetos e de botoes*/
+    width: 100%;
+    margin-top: -5px;
+    
+}
+#Cad{
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 80%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+#Não{
+ display: none;
+}
+#Sim{
+    display: none;
+}
+
+#sim{
+    margin-left: 15%;
+    width: 120px;
+    height: 40px;
+    font-family: Montserrat;
+    background: red;
+    border: solid 1px ;
+    text-align: center;
+
+}
+#nao{
+    width: 120px;
+    height: 40px;
+    font-family: Montserrat;
+    background: red;
+    border: solid 1px ;
+    text-align: center;
+
+}
+#Não:checked ~ #sim{
+    background: green;
+    transition: 1s;
+}
+#Sim:checked ~ #nao{
+    background: green;
+    transition: 1s;
+}
+
+#Crad{
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 80%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+}
+/*4 proximo elemnetos e de botoes*/
+
+
+
 
 #chek {
     width: 200px;
@@ -123,25 +191,63 @@ header {
     font-size: 1.1em;
     line-height: 30px;
     color: #000000;
-    background: #00FFF0;
+    background:#7729DB;
     border: 3px solid rgba(13, 12, 61, 0.4);
     box-sizing: border-box;
-    border-radius: 10px;
+    cursor: pointer;
+     transition: 1s;
+     border: none;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+     text-align: center;
 }
 
 #che {
-    width: 200px;
+       width: 200px;
     height: 37px;
-    background: #4402FF;
-    opacity: 0.7;
-    border-radius: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 1.1em;
     line-height: 30px;
     color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+     transition: 1s;
+     border: none;
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+     text-align: center;
+     
 }
+
+#en {
+        display: none;
+}
+#apre{
+        display: none;
+}
+#chek:hover{
+    background: rgba(118, 41, 219, 0.911);
+}
+#che:hover{
+    background: rgba(118, 41, 219, 0.911);
+}
+
+#apre:checked ~ #chek{
+    background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.274);
+
+}
+#en:checked ~ #che{
+   background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.274);
+}
+
 
 #cads {
     width: 290px;
@@ -196,6 +302,69 @@ header {
     background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
     border-radius: 0px 78px;
 }
+<<<<<<< HEAD
+/*login*/
+#logs{
+    width: 190px;
+    height: 37px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: white;
+    background: rgb(83, 13, 248);
+    margin-left: 27%;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+#logs:hover{
+    background: rgb(42, 11, 114);
+
+}
+
+#login{
+    margin-left: 32%;
+    color: white;
+}
+#login:hover{
+    color:rgb(56, 20, 155) ;
+
+}
+
+#i{
+    margin-left: 25%;
+    margin-top: 30px;
+}
+#Text{
+    
+    border-bottom: solid 2px #fff ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 25%;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 50%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+    
+
+}
+
+/*retira underline dos link <a>*/
+a:link {
+  text-decoration: none;
+}
+a.nounderline:link{
+text-decoration:none;
+}
+
+=======
+>>>>>>> 25d6ac404df832a24831b3f67b1e6bf72e949d1f
 /**rodape**/
 .volteaotopo {/*volte ao topo*/
     position: fixed;
