@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Dolphins2/Application#readme",
   "devDependencies": {
     "json-server": "^0.16.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0"
   }
 }
