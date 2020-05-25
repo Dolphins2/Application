@@ -215,25 +215,9 @@ header {
     color: rgba(0, 0, 0, 0.274);
 }
 
-#ssla:checked ~ #inns{
-    display: inline;
-    float: left;
-   
-}
-#ssla:checked ~ #rad{
-    display: inline;
-    margin-left: -40px;
-}
-
-
 #inns{
-    display: none;
-    margin-top: 10px;
-   float: left;
+    display: block;
     
-}
-#rad{ /**/
-    display: none;
     border-bottom: solid 2px #000 ;
     border-top: none;
     border-left: none;
@@ -241,13 +225,25 @@ header {
     background: rgba(253, 0, 0, 0);
     height: 25px;
     width: 80%;
-    direction: none;
+    
     outline: none;
     font-size: 20px;
-    transition: 1s;
-    float: left;
-    
+   
+   
 }
+#qual {
+    display: none;
+}
+#ssla:checked ~ #qual{
+    display: block;
+    margin-left: -400px;
+   
+}
+#ssla:checked ~ #pp{
+    margin-left: 400px;
+}
+
+
 
 #Crad{
     border-bottom: solid 2px #000 ;
