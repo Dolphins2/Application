@@ -93,14 +93,6 @@ header {
 
 .nomeantes {/*labls antes dos ids*/
     padding-left: 15px;
-}/*pra mostrar qual instituição se o botao for precionado*/
-
-#some{
-    display: none;
-}
-
-#cargo:checked ~ #some{
-    display: block;
 }
 
 .campo {/*input*/
@@ -141,27 +133,100 @@ header {
     width: 120px;
     height: 40px;
     font-family: Montserrat;
-    background: red;
-    border: solid 1px ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     text-align: center;
+    display: flex;
+    margin-top: -37px;
+    margin-left: -200px;
+
+     
+}
+#po{
+    margin-top: 50px;
+    margin-left: -400px;
+
 
 }
-#nao{
-    width: 120px;
-    height: 40px;
-    font-family: Montserrat;
-    background: red;
-    border: solid 1px ;
-    text-align: center;
+#pp{
+    margin-top: 0px;
+     margin-left: -400px;
+}
+
+
+#vish{
+    display: none;
+}
+#ssla{
+    display: none;
+    
+} 
+
+
+
+
+#sdd:hover{
+    background: rgba(118, 41, 219, 0.911);
+}
+#bed:hover{
+    background: rgba(118, 41, 219, 0.911);
+}
+
+#vish:checked ~ #sdd{
+    background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.274);
 
 }
-#Não:checked ~ #sim{
-    background: green;
+#ssla:checked ~ #bed{
+   background: rgba(96, 9, 209, 0.699);
     transition: 1s;
+    color: rgba(0, 0, 0, 0.274);
 }
-#Sim:checked ~ #nao{
-    background: green;
+
+#ssla:checked ~ #inns{
+    display: inline;
+    float: left;
+   
+}
+#ssla:checked ~ #rad{
+    display: inline;
+    margin-left: -40px;
+}
+
+
+#inns{
+    display: none;
+    margin-top: 10px;
+   float: left;
+    
+}
+#rad{ /**/
+    display: none;
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 80%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
     transition: 1s;
+    float: left;
+    
 }
 
 #Crad{
@@ -178,9 +243,6 @@ header {
 }
 /*4 proximo elemnetos e de botoes*/
 
-
-
-
 #chek {
     width: 200px;
     height: 37px;
@@ -194,15 +256,16 @@ header {
     border: 3px solid rgba(13, 12, 61, 0.4);
     box-sizing: border-box;
     cursor: pointer;
-     transition: 1s;
-     border: none;
-     border-bottom-left-radius: 10px;
-     border-top-left-radius: 10px;
-     text-align: center;
+    transition: 1s;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+      
 }
 
 #che {
-       width: 200px;
+    width: 200px;
     height: 37px;
     font-family: Montserrat;
     font-style: normal;
@@ -214,11 +277,12 @@ header {
     border: 3px solid rgba(13, 12, 61, 0.4);
     box-sizing: border-box;
     cursor: pointer;
-     transition: 1s;
-     border: none;
-     border-bottom-right-radius: 10px;
-     border-top-right-radius: 10px;
-     text-align: center;
+    transition: 1s;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+   
      
 }
 
@@ -254,10 +318,18 @@ header {
     transition: 1s;
     color: rgba(0, 0, 0, 0.274);
 }
+#ec{
+    display: none;
+}
+#en:checked ~ #ec {
+        display: grid;
+}
+
+
 
 
 #cads {
-    width: 290px;
+    width: 190px;
     height: 37px;
     border-radius: 10px;
     font-family: Montserrat;
@@ -271,7 +343,7 @@ header {
 }
 
 #cada {
-    width: 290px;
+    width: 190px;
     height: 37px;
     background: #7D27EB;
     position: absolute;
@@ -305,7 +377,7 @@ header {
 
 .quadrado{/*quadrado*/
     width: 100%;
-    height: 350px;
+    height: 400px;
     background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
     border-radius: 0px 78px;
 }
@@ -337,7 +409,6 @@ header {
 }
 #login:hover{
     color:rgb(56, 20, 155) ;
-
 }
 
 #i{
@@ -357,8 +428,6 @@ header {
     direction: none;
     outline: none;
     font-size: 20px;
-    
-
 }
 
 /*retira underline dos link <a>*/
