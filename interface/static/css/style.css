@@ -1,0 +1,502 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+  
+}
+
+/*base do menu*/
+.menu {
+    background: linear-gradient(180deg, rgb(136, 60, 236) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 62.06%), rgb(42, 170, 255);
+    height: auto;
+}
+/*pra por a nav e header juntos*/
+.menuflex {
+    margin-bottom: 4px solid;
+    display: flex;
+}
+
+header {
+    padding-left: 70px;
+}
+/*nav*/
+.menu1 {
+    width: 100%;
+    height: 60px;
+}
+
+.menu1 ul {
+    list-style: none;
+    position: relative;
+    float: right;
+    padding-right: 50px;
+}
+
+.menu1 ul li {
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 2px;
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.menu1 ul li:hover {
+    border-bottom: 4px solid #e0ffff;
+    /*detalhe tava text decoration, so que tem que separar ai isso e um teste*/
+}
+/*h1 do cabecalho*/
+#textcad {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9em;
+    line-height: 278px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 5.1885px 5.1885px rgba(0, 0, 0, 0.25);
+}
+/** responsavel pelas mains dos codigos colocar nessa parte**/
+.conteudo {/*main*/
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+
+.conteudo form {/*formunalrio*/
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.selecionaperfil {
+    display: flex;
+}
+
+.nomeantes {/*labls antes dos ids*/
+    padding-left: 15px;
+}
+
+.campo {/*input*/
+    left: 0.06%;
+    right: 0.06%;
+    top: 0.82%;
+    bottom: 0.82%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    padding: 7px;
+    width: 100%;
+    margin-top: -5px;
+    
+}
+#Cad{
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 100%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+
+
+#sdd{
+    width: 200px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+     transition: 1s;
+     border: none;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+     text-align: center;
+     display: flex;
+     margin-top: 0px;
+     margin-left: -400px;
+     
+}
+
+#bed {
+    width: 200px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    display: flex;
+    margin-top: -37px;
+    margin-left: -200px;
+
+     
+}
+#po{
+    margin-top: 50px;
+    margin-left: -400px;
+
+
+}
+#pp{
+    margin-top: 0px;
+     margin-left: -400px;
+}
+
+
+#vish{
+    display: none;
+}
+#ssla{
+    display: none;
+    
+} 
+
+
+#h22{
+    margin-top: 20px;
+}
+
+#sdd:hover{
+     background: rgba(71, 4, 165, 0.911);
+}
+#bed:hover{
+     background: rgba(71, 4, 165, 0.911);
+}
+
+#vish:checked ~ #sdd{
+        background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(255, 255, 255, 0.274);
+
+}
+#ssla:checked ~ #bed{
+      background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(255, 255, 255, 0.274);
+}
+
+#inns{
+    display: block;
+    
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 100%;
+    
+    outline: none;
+    font-size: 20px;
+   
+   
+}
+#qual {
+    display: none;
+}
+#ssla:checked ~ #qual{
+    display: block;
+    margin-left: -400px;
+   
+}
+#ssla:checked ~ #pp{
+    margin-left: 400px;
+}
+
+
+
+#Crad{
+    border-bottom: solid 2px #000 ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 80%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+}
+/*4 proximo elemnetos e de botoes*/
+
+#chek {
+    width: 200px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+      
+}
+
+#che {
+    width: 200px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+    background:#7729DB;
+    border: 3px solid rgba(13, 12, 61, 0.4);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+   
+     
+}
+
+#en {
+        display: none;
+}
+#apre{
+        display: none;
+}
+#chek:hover{
+     background: rgba(71, 4, 165, 0.911);
+}
+#che:hover{
+     background: rgba(71, 4, 165, 0.911);
+}
+
+#apre:checked ~ #chek{
+    background: rgba(111, 0, 255, 0.699);
+    transition: 1s;
+    color: rgba(255, 255, 255, 0.274);
+
+}
+#en:checked ~ #che{
+   background: rgba(96, 9, 209, 0.699);
+    transition: 1s;
+    color: rgba(255, 255, 255, 0.274);
+}
+#ec{
+    display: none;
+}
+#en:checked ~ #ec {
+        display: grid;
+}
+
+
+
+
+#cads {
+    width: 150px;
+    height: 37px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: white;
+    background: #7D27EB;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+#cada {
+    width: 150px;
+    height: 37px;
+    background: #7D27EB;
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+#cada:hover{
+    background: rgba(71, 4, 165, 0.911);
+    transition:1s;
+}
+#cads:hover{
+    transition:1s;
+    background: rgba(68, 0, 156, 0.911);
+}
+
+#cada a{
+    text-decoration: none;
+    color: white;
+}
+
+#euquero {
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.conteudologin{/*main da pagina de login*/
+    width: 30%;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.quadrado{/*quadrado*/
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, #00FFFF 0%, rgba(255, 255, 255, 0) 100%), #7D27EB;
+    border-radius: 0px 78px;
+}
+/*login*/
+#logs{
+    width: 190px;
+    height: 37px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: white;
+    background: rgb(83, 13, 248);
+    margin-left: 27%;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+#logs:hover{
+    background: rgb(42, 11, 114);
+
+}
+
+#login{
+    margin-left: 32%;
+    color: white;
+}
+#login:hover{
+    color:rgb(56, 20, 155) ;
+}
+
+#i{
+    margin-left: 25%;
+    margin-top: 30px;
+}
+#Text{
+    
+    border-bottom: solid 2px #fff ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 25%;
+    background: rgba(253, 0, 0, 0);
+    height: 25px;
+    width: 50%;
+    direction: none;
+    outline: none;
+    font-size: 20px;
+}
+
+/*retira underline dos link <a>*/
+a:link {
+  text-decoration: none;
+}
+a.nounderline:link{
+text-decoration:none;
+}
+
+/**rodape**/
+.volteaotopo {/*volte ao topo*/
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.volteaotopo:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer {/*rodape*/
+    width: auto;
+    align-items: left;
+    background: linear-gradient(180deg, #7D27EB 0%, rgba(255, 255, 255, 0) 100%), rgb(143, 95, 255);
+    height: auto;
+    padding: 25px;
+    padding-left: 70px;
+}
+
+footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: white;
+}
+
+@media only screen and (min-width: 720px) {}
+
+@media only screen and (min-width: 1000px) {}
