@@ -259,6 +259,20 @@
       "instituição": "0",
       "perfil": "1",
       "id": 22
+    },
+    {
+      "usuario": "Julio555",
+      "nome": "julio",
+      "unome": "avelar",
+      "senha": "12345",
+      "nascimento": "24/01/1994",
+      "cidade": "Belém",
+      "Estado": "Paraiba",
+      "foto": "ref",
+      "instituição": "privada",
+      "declaração": "ref",
+      "perfil": "1",
+      "id": 23
     }
   ],
   "usuario": [

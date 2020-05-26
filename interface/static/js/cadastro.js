@@ -22,6 +22,7 @@ $(document).ready(function(){
                 nascimento: $("input#datana").val(),
                 cidade: $("input#cidade").val(),
                 Estado: $("input#estado").val(),
+                Endereco: $("input#endereco").val(),
                 foto: $("input#foto").val(),
                 instituição: ins,
                 perfil: 1,
