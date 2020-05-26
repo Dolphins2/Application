@@ -115,7 +115,7 @@ header {
     border-right: none;
     background: rgba(253, 0, 0, 0);
     height: 25px;
-    width: 80%;
+    width: 100%;
     direction: none;
     outline: none;
     font-size: 20px;
@@ -194,25 +194,27 @@ header {
 } 
 
 
-
+#h22{
+    margin-top: 20px;
+}
 
 #sdd:hover{
-    background: rgba(118, 41, 219, 0.911);
+     background: rgba(71, 4, 165, 0.911);
 }
 #bed:hover{
-    background: rgba(118, 41, 219, 0.911);
+     background: rgba(71, 4, 165, 0.911);
 }
 
 #vish:checked ~ #sdd{
-    background: rgba(96, 9, 209, 0.699);
+        background: rgba(96, 9, 209, 0.699);
     transition: 1s;
-    color: rgba(0, 0, 0, 0.274);
+    color: rgba(255, 255, 255, 0.274);
 
 }
 #ssla:checked ~ #bed{
-   background: rgba(96, 9, 209, 0.699);
+      background: rgba(96, 9, 209, 0.699);
     transition: 1s;
-    color: rgba(0, 0, 0, 0.274);
+    color: rgba(255, 255, 255, 0.274);
 }
 
 #inns{
@@ -224,7 +226,7 @@ header {
     border-right: none;
     background: rgba(253, 0, 0, 0);
     height: 25px;
-    width: 80%;
+    width: 100%;
     
     outline: none;
     font-size: 20px;
@@ -309,22 +311,22 @@ header {
         display: none;
 }
 #chek:hover{
-    background: rgba(118, 41, 219, 0.911);
+     background: rgba(71, 4, 165, 0.911);
 }
 #che:hover{
-    background: rgba(118, 41, 219, 0.911);
+     background: rgba(71, 4, 165, 0.911);
 }
 
 #apre:checked ~ #chek{
-    background: rgba(96, 9, 209, 0.699);
+    background: rgba(111, 0, 255, 0.699);
     transition: 1s;
-    color: rgba(0, 0, 0, 0.274);
+    color: rgba(255, 255, 255, 0.274);
 
 }
 #en:checked ~ #che{
    background: rgba(96, 9, 209, 0.699);
     transition: 1s;
-    color: rgba(0, 0, 0, 0.274);
+    color: rgba(255, 255, 255, 0.274);
 }
 #ec{
     display: none;
@@ -337,7 +339,7 @@ header {
 
 
 #cads {
-    width: 190px;
+    width: 150px;
     height: 37px;
     border-radius: 10px;
     font-family: Montserrat;
@@ -348,10 +350,13 @@ header {
     color: white;
     background: #7D27EB;
     margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
 }
 
 #cada {
-    width: 190px;
+    width: 150px;
     height: 37px;
     background: #7D27EB;
     position: absolute;
@@ -362,7 +367,18 @@ header {
     line-height: 30px;
     color: white;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+#cada:hover{
+    background: rgba(71, 4, 165, 0.911);
+    transition:1s;
+}
+#cads:hover{
+    transition:1s;
+    background: rgba(68, 0, 156, 0.911);
 }
 
 #cada a{
