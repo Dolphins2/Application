@@ -469,14 +469,9 @@ text-decoration:none;
     right: 2em;
     text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
     font-size: 12px;
     padding: 1em;
     display: none;
-}
-
-.volteaotopo:hover {
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 footer {/*rodape*/
